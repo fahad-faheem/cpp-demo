@@ -1,17 +1,26 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
-<<<<<<< Updated upstream
- #include <iostream>
- using namespace std;
+int main()
+{
 
- int main() {
-    cout << "Hello World" << endl;    
-    cout << "This is my another commit and another line yes it is" << endl;
-    
-=======
-int main() {
-    cout << "No more hello world now lets go further and deeper" << endl;
->>>>>>> Stashed changes
-    return 0;
+std::string forName;
+int forAge;
+char forBloodtype;
+
+
+std::cout << "Enter your Name: " << std::endl;
+std::cin >> forName;
+
+std::cout << "Enter your age: " << std::endl;
+std::cin >> forAge;
+
+std::cout << "Enter your blood type: " << std::endl;
+std::cin >> forBloodtype;
+
+std::cout << "Your name is " << forName 
+            << ", Your age is " << forAge 
+            << ", And " << forBloodtype << " is your blood group";
+            return 0;
+
 }
