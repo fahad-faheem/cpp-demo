@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 // yes
+//small changes 
 int main() {   
     bool isSunny; // Declare a boolean variable
     string userResponse;
