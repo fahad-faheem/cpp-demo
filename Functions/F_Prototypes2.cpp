@@ -14,8 +14,9 @@ int main (){
     cout << "Enter first number: " << endl;
     cin >> number2;
 
+    int callfun = fun(number1, number2);
 
-    cout << "The multplication of number1 and number2 is " << fun(number1, number2) << endl;
+    cout << "The multplication of number1 and number2 is " << callfun << endl;
 
 
 
