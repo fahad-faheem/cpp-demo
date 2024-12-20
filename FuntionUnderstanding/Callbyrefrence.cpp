@@ -1,21 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void function (int &number){             // the value recieve in number formal parameter is call by refrence
-      
-   cout << "The formal value is "  << number + 5<< endl;                // now it will change the actual value too 
-}                                                                      
+// Function that modifies the value of the argument (Call by Reference)
+void modifyNumber(int &number) {        // formal parameters
+    number += 10;
+    cout << "Inside the function: " << number << endl;
+}
 
-int main (){
+int main() {
+    int num = 5;
+    cout << "Before calling function: " << num << endl;
 
-    int a = 20;
+    modifyNumber(num);      //actuall parameters
 
-
-    function(a);                                    // the value sent to function 
-    cout << "The real value is " << a << endl;
-    cout << "The real value is " << a << endl;
-
-
-
+    cout << "After calling function: " << num << endl;
     return 0;
 }
