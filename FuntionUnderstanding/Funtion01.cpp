@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void funtion (int number);  //formal parameters
+void funtion (int number);  //formal parameters  declaration of function so compiler know about it 
 
 int main (){
 
@@ -14,7 +14,7 @@ int main (){
     // }
 
     int num = 22;
-    int fun = funtion(num):     //actual parameters
+    int fun = funtion(num):     //actual parameters                 // initialization, Calling function
 
     cout << fun << endl;
 
@@ -25,7 +25,7 @@ int main (){
     return 0;
 }
 
-void funtion (int number;){
+void funtion (int number;){                             // definition, what function do?
     cout << "Print " << number << endl;
 }
 
