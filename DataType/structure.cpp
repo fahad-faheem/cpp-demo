@@ -22,7 +22,7 @@ int main (){
     // Example 
 
 
-     struct Playerresult {
+     struct Playerresult {              // it is like declaring different variable
 
         long long int Uid;
         int Rank;
@@ -34,7 +34,7 @@ int main (){
 
 
 
-    struct Playerresult Abadi; {
+    struct Playerresult Abadi; {        // it is like asigning name to variables  Name.varibale 
   
         Abadi.Uid = 5657889951;
         Abadi.Rank = 1;
