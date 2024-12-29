@@ -5,7 +5,18 @@ int main (){
 
 
 
-    cout << "Godness" << endl;
+int firstnumber;
+
+
+
+
+
+
+
+
+
+
+
 
     return 0;
 }
